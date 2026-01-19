@@ -9,7 +9,7 @@ It leverages `/dev/urandom` directly to ensure cryptographic security without ex
 
 ### From Source
 
-*(`make` is required)*
+*(`make` and `gcc` are required)*
 
 ```bash
 git clone https://github.com/CarvDev/cpass.git
