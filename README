@@ -1,0 +1,36 @@
+# cpass (C Password Generator)
+
+A minimalist, high-performance password generator for Linux, written in C.
+It leverages `/dev/urandom` directly to ensure cryptographic security without external dependencies.
+
+
+
+## Installation
+
+### From Source
+
+*(`make` is required)*
+
+```bash
+git clone [https://github.com/CarvDev/cpass.git](https://github.com/CarvDev/cpass.git)
+cd cpass
+make
+sudo make install
+
+```
+
+## Usage
+
+Generate a standard 16-character password:
+
+```bash
+cpass
+
+```
+
+Generate a 32-character password:
+
+```bash
+cpass 32
+
+```
