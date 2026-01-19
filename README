@@ -1,6 +1,6 @@
 # cpass (C Password Generator)
 
-A minimalist, high-performance password generator for Linux, written in C.
+A minimalist, high-performance password generator for Linux, written in C. Made for academical purpose.
 It leverages `/dev/urandom` directly to ensure cryptographic security without external dependencies.
 
 
