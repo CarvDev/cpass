@@ -1,4 +1,4 @@
-CC = clang
+CC = gcc
 CFLAGS = -O2 -Wall -Wextra
 TARGET = cpass
 SRC = main.c
