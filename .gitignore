@@ -1,2 +1,10 @@
-*.bin
+# Compiled binaries
+main
+cpass
+*.o
 *.out
+
+# System/editors files
+.DS_Store
+.vscode/
+*.swp
