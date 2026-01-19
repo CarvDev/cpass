@@ -12,7 +12,7 @@ It leverages `/dev/urandom` directly to ensure cryptographic security without ex
 *(`make` is required)*
 
 ```bash
-git clone [https://github.com/CarvDev/cpass.git](https://github.com/CarvDev/cpass.git)
+git clone https://github.com/CarvDev/cpass.git
 cd cpass
 make
 sudo make install
